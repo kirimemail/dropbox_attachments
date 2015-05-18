@@ -5,10 +5,16 @@ Roundcube plugin to attach files from Dropbox. Uses Dropbox dropins api: https:/
 
 Install
 =======
+Follow the steps in https://www.dropbox.com/developers/dropins/chooser/js and get your appKey
+
+####  Manual Install
 * Place this plugin folder into plugins directory of Roundcube.
-* Follow the steps in https://www.dropbox.com/developers/dropins/chooser/js and get your appKey
-* Update config.inc.php with the above appKey and other optional options
-* Add `dropbox_attachments` to $config['plugins'] in your Roundcube config
+* Rename config.inc.php.dist to config.inc.php. Update config.inc.php with the above appKey and other optional options
+* Add `dropbox_attachments` to $config['plugins'] array in your Roundcube config
+
+### Via Composer
+* require the package in composer: `"hassansin/dropbox_attachments": "dev-master"`
+* `composer update`
 
 Screenshot
 ==========
