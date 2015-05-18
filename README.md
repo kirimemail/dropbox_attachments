@@ -15,6 +15,7 @@ Follow the steps in https://www.dropbox.com/developers/dropins/chooser/js and ge
 ### Via Composer
 * require the package in composer: `"hassansin/dropbox_attachments": "dev-master"`
 * `composer update`
+* Update the generated dropbox_attachments/config.inc.php with the above appKey and other optional options
 
 Screenshot
 ==========
