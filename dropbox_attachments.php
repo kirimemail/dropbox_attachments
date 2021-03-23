@@ -33,7 +33,7 @@ class dropbox_attachments extends rcube_plugin
       $rcmail->output->set_env('dropbox_multiselect', $rcmail->config->get('dropbox_multiselect',true));
 
       $this->include_script('https://www.dropbox.com/static/api/2/dropins.js');
-      $this->include_script('attachments.min.js');      
+      $this->include_script('attachments.js');      
     }   
     
   }
